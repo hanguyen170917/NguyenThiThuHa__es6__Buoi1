@@ -35,7 +35,6 @@ const changColorHouse = (color) => {
     document.getElementById("house").classList.remove(colorList[i]);
     if (color === colorList[i]) {
       document.getElementById("house").classList.add(colorList[i]);
-      console.log(colorList[i]);
     }
   }
 };
